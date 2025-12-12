@@ -11,9 +11,9 @@ export default function Hero(props) {
             <div className="xl:flex xl:flex-col lg:flex-row justify-center gap-5 ">
                 <div className="xl:w-1/2 xl:flex xl:flex-col  justify-center lg:width-full lg:mb-4 lg:text-center">
                 <h1 className="text-[88px] font-bold mb-4 text-gray-800 leading-[100px] md:text-[65px] md:text-center">
-           Track your Expenses to Save Money 11
+           Track your Expenses to Save Money
           </h1>
-          <p className="text-[#BDBDBD] mt-5 text-[22px] md:text-center"> Hsdselps you to organize your income and expenses</p>
+          <p className="text-[#BDBDBD] mt-5 text-[22px] md:text-center"> Helps you to organize your income and expenses</p>
           <div className="xl:flex md:text-center gap-4">
           <button className="bg-[#FF7235] text-white px-6 py-4 font-normal rounded mt-6  text-[24px] md:px-4 md:py-2 md:text-[20px]">
              Try free demo {/*<KeyboardArrowDownIcon/> */}
