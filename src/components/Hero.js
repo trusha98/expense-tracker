@@ -1,6 +1,5 @@
 import React from 'react'
 import Heroimg from "../assets/hero.png"
-// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Productbrand from "./Productbrand";
 
 
@@ -16,7 +15,7 @@ export default function Hero(props) {
           <p className="text-[#BDBDBD] mt-5 text-[22px] md:text-center"> Helps you to organize your income and expenses</p>
           <div className="xl:flex md:text-center gap-4">
           <button className="bg-[#FF7235] text-white px-6 py-4 font-normal rounded mt-6  text-[24px] md:px-4 md:py-2 md:text-[20px]">
-             Try free demo {/*<KeyboardArrowDownIcon/> */}
+             Try free demo 
           </button>
             <button className="text-[#BDBDBD] text-[24px] mt-6">
             — Web, iOs and Android
