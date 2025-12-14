@@ -8,8 +8,8 @@ export default function Hero() {
       <section className="mx-auto px-6 md:px-12 lg:px-[150px] py-20 mt-20">
         <div className="flex flex-col lg:flex-row items-center gap-10">
 
-          <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-[42px] md:text-[65px] lg:text-[88px] font-bold text-gray-800 leading-tight">
+          <div className="lg:w-1/2 text-center">
+            <h1 className="text-[42px] md:text-[65px] lg:text-[50px] font-bold text-gray-800 leading-tight">
               Track your Expenses to Save Money
             </h1>
 
@@ -17,8 +17,8 @@ export default function Hero() {
               Helps you to organize your income and expenses
             </p>
 
-            <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-4 mt-6">
-              <button className="bg-[#FF7235] text-white px-6 py-4 rounded text-[20px] md:text-[24px]">
+            <div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-4 mt-6 ">
+              <button className="bg-[#FF7235] text-white px-6 py-4 rounded text-[20px] md:text-[24px] lg:text-[18px]">
                 Try free demo
               </button>
 
