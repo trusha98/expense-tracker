@@ -120,7 +120,7 @@ export default function Footer() {
                 placeholder="Enter your email"
                 className="rounded border mt-2 p-3 w-[250px]"
               />
-              <button className="bg-[#FF7235] text-white p-none rounded font-normal w-[78px] h-[41px] relative top-[13px] right-[81px] sm:right-[72px]">
+              <button className="bg-[#FF7235] text-white p-none rounded font-normal w-[78px] h-[41px] relative top-[13px]  sm:right-[81px]">
                 Subscribe
               </button>
             </div>
