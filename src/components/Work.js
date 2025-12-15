@@ -3,17 +3,17 @@ import React from "react";
 export default function Work() {
   return (
     <div>
-      <section className="xl:h-[600px] mx-auto px-[150px] py-22 mt-20">
-        <div className="flex lg:flex-col lg:text-center xl:flex-row">
-          <h1 className="text-[88px] font-bold text-[#292830] xl:w-[65%] lg:w-full leading-none">
+      <section className="h-auto mx-auto px-[150px] py-22 mt-20">
+        <div className="flex lg:flex-col lg:text-center flex-row md:flex-col md:text-center sm:flex-col sm:text-center">
+            <h1 className="text-[32px] md:text-[44px] lg:text-[60px] font-bold text-gray-800 md:text-center">
             The Product we work with.
           </h1>
-          <p className=" text-[#BDBDBD] text-[22px]  xl:w-[35%] lg:w-full mt-10">
+            <p className="text-[#BDBDBD] mt-5 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] md:text-center">
             Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
             aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.
           </p>
         </div>
-        <div className="flex lg:flex-col xl:flex-row justify-center gap-6 mt-10">
+        <div className="flex lg:flex-col md:flex-col sm:flex-col justify-center gap-6 mt-10">
           <div className="bg-white rounded-lg p-10 flex flex-col items-center justify-center hover:shadow-xl hover:cursor-pointer">
             <div className="text-base flex items-center justify-center bg-[#FFBD740D] p-8 rounded-full">
               <i className="fa-solid fa-desktop text-[#FF7235]"></i>

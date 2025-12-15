@@ -10,26 +10,27 @@ export default function About(props) {
           }`}
         >
          
-          <div className="xl:w-1/2 flex xl:flex-col lg:flex-row justify-center">
-            <img
-              src={props.imageUrl}
-              alt=""
-              className="xl:w-[400px] lg:mt-16"
-            />
-          </div>
+          <div className="w-full flex justify-center lg:justify-center mt-6 lg:mt-16">
+  <img
+    src={props.imageUrl}
+    alt=""
+    className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[400px]"
+  />
+</div>
 
-          <div className="xl:w-1/2 xl:flex xl:flex-col  justify-center lg:width-full lg:mt-10 lg:text-center">
-            <p className="uppercase text-[#BDBDBD] text-[22px]">
+          <div className="w-full  flex flex-col justify-center text-center  px-4 sm:px-0">
+            <p className="uppercase text-[#BDBDBD] text-sm sm:text-base md:text-lg lg:text-xl">
               {props.title}
             </p>
-            <h1 className="text-[88px] font-bold mb-4 text-gray-800 leading-[100px]">
+            <h1 className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-none">
+
               {props.subtitle}
             </h1>
-            <p className="text-[#BDBDBD] mt-5 text-[22px]">
+            <p className="text-[#BDBDBD] mt-4 text-sm sm:text-base md:text-lg lg:text-xl leading-none">
               {props.description}
             </p>
-            <div className="">
-              <button className="text-[#FF7235] text-[24px] mt-6 xl:flex items-center gap-2">
+            <div className="mt-6 flex justify-center">
+              <button className="text-[#FF7235] text-lg sm:text-xl md:text-2xl flex items-center gap-2">
                 {props.button} <i className="fa-solid fa-arrow-right mt-2"></i>
               </button>
             </div>
