@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="product  max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 py-16 mt-20">
+      <section className="product mx-auto px-6 sm:px-10 md:px-16 lg:px-24 py-16 mt-20">
         <div className="flex flex-col sm:flex-wrap sm:flex-row md:flex-row justify-between gap-10">
           <div className="w-full sm:w-1/2 md:w-auto">
             <img src={Logo} alt="" className="w-[112px]" />

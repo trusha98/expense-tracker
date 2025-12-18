@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-20 py-3 flex justify-between items-center">
+        <div className=" mx-auto px-6 md:px-20 py-3 flex justify-between items-center">
           <img src={Logo} alt="" className="img-fluid w-[112px]" />
           <ul className=" md:flex space-x-6 text-gray-700">
             <li>

@@ -12,7 +12,7 @@ export default function Productbrand() {
       <section
         className="product bg-[#FF7235] 
         bg-gradient-to-tr from-[#FF723566] to-[#FFFFFF66]
-        max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24 py-16 mt-20
+         mx-auto px-6 sm:px-10 md:px-16 lg:px-24 py-16 mt-20
       "
       >
         <div className="mb-0 mt-10 lg:-mb-[64px] md:-mb-[64px] sm:-mb-[65px]">
@@ -21,7 +21,7 @@ export default function Productbrand() {
       </section>
 
      <section className="bg-white py-12">
-  <div className="max-w-7xl mx-auto px-6 sm:px-10 md:px-16 lg:px-24">
+  <div className=" mx-auto px-6 sm:px-10 md:px-16 lg:px-24">
     <div className="flex flex-wrap items-center justify-center lg:justify-between gap-8">
       
       <img src={Facebook} alt="Facebook" className="w-[90px] sm:w-[85px] md:w-[100px] lg:w-[140px]" />
