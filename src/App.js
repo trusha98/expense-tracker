@@ -8,6 +8,7 @@ import Slider from "./components/Slider";
 import Work from "./components/Work";
 
 function App() {
+  console.log("App component rendered");
   return (
     <>
       <Navbar />
