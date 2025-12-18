@@ -18,6 +18,16 @@ export default function Slider() {
               autoplay: true,
               pagination: false,
               arrows: false,
+              breakpoints: {
+                1024: { 
+                  perPage: 2,
+                
+                },
+                640: { 
+                  perPage: 1,
+                  
+                },
+              }
             }}
           >
             <SplideSlide>
