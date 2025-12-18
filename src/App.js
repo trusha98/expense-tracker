@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Plan from "./components/Plan";
+import Slider from "./components/Slider";
 import Work from "./components/Work";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       />
       <Work/>
       <Plan/>
+      <Slider/>
       <Footer/>
     </>
   );
