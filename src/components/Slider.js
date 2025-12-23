@@ -6,8 +6,8 @@ import Sliderimg from "../assets/slider.png"
 export default function Slider() {
   return (
     <>
-      <section className='px-[150px] py-22 mt-15'>
-        <h1 className="text-[72px] font-bold mb-4 text-gray-800 text-center leading-none">
+      <section className='px-[150px] py-22 mt-20 mb-20'>
+        <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-800 text-center leading-none">
           We have millions of<br /> best wishers
         </h1>
         <div className='mt-20'>

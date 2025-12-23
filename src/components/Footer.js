@@ -6,9 +6,9 @@ import Logo from "../assets/Logo.png";
 export default function Footer() {
   return (
     <>
-      <section className="mt-20 px-6 sm:px-10 md:px-16 lg:px-24 py-12 bg-[#FF7235] bg-gradient-to-tr from-[#FF723566] to-[#FFFFFF66]">
+      <section className="mt-20 px-6 sm:px-10 md:px-20 lg:px-24 py-12 bg-[#FF7235] bg-gradient-to-tr from-[#FF723566] to-[#FFFFFF66]">
         <div className="flex flex-col items-center relative">
-          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center leading-none mt-10">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center leading-none mt-10">
             20M+ downloaded from 32 diffrent countires
           </h1>
           <p className="text-white text-center text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4">
@@ -19,16 +19,16 @@ export default function Footer() {
               Try free demo
             </button>
           </div>
-<div className="relative w-full mt-10 flex justify-center gap-4 flex-wrap">
+<div className="relative w-full mt-10 flex flex-row justify-center gap-4 flex-wrap">
           <img
             src={Img2}
             alt=""
-            className="w-[200px] sm:w-[250px] md:w-[350px] lg:w-[400px] xl:w-[445px]"
+            className="w-[200px] sm:w-[230px] md:w-[250px] lg:w-[400px] xl:w-[445px]"
           />
           <img
             src={Img1}
             alt=""
-            className="w-[200px] sm:w-[250px] md:w-[350px] lg:w-[400px] xl:w-[445px]"
+            className="w-[200px] sm:w-[230px] md:w-[250px] lg:w-[400px] xl:w-[445px]"
           />
         </div>
         </div>

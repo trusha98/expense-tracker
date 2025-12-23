@@ -4,14 +4,14 @@ export default function Plan() {
   return (
     <>
       <section className="mx-auto px-4 sm:px-6 md:px-16 lg:px-32 py-12 mt-15">
-        <h1 className="text-[32px] sm:text-[36px] md:text-[44px] lg:text-[60px] font-bold text-gray-800 text-center mb-10 leading-tight">
+        <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 text-center mb-10 leading-tight">
           Choose your flexible plan.
         </h1>
 
-        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row flex-wrap justify-center gap-6">
-          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-1/3 lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
+        <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row flex-wrap justify-center gap-6">
+          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-full lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
             <i className="fa-solid fa-bag-shopping text-[#4D12EE] text-3xl mb-4"></i>
-            <p className="text-[32px] sm:text-[32px] font-bold mb-4">Starter Plan</p>
+            <p className="text-3xl lg:text-2xl sm:text-[32px] font-bold mb-4">Starter Plan</p>
             <ul className="text-[#292830] mb-6 space-y-2 text-[18px]">
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Store unlimited data</li>
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Export to pdf, xls, csv</li>
@@ -27,9 +27,9 @@ export default function Plan() {
             </button>
           </div>
 
-          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-1/3 lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
+          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-full lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
             <i className="fa-solid fa-bag-shopping text-[#FF7235] text-3xl mb-4"></i>
-            <p className="text-[32px] sm:text-[32px] font-bold mb-4">Silver Plan</p>
+            <p className="text-3xl lg:text-2xl sm:text-[32px] font-bold mb-4">Silver Plan</p>
             <ul className="text-[#292830] mb-6 space-y-2 text-[18px]">
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Store unlimited data</li>
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Export to pdf, xls, csv</li>
@@ -45,9 +45,9 @@ export default function Plan() {
             </button>
           </div>
 
-          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-1/3 lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
+          <div className="bg-white rounded-lg border p-6 flex-1 w-full sm:w-full md:w-full lg:w-1/3 text-center hover:shadow-xl hover:border-none cursor-pointer">
             <i className="fa-solid fa-bag-shopping text-[#4D12EE] text-3xl mb-4"></i>
-            <p className="text-[32px] sm:text-[32px] font-bold mb-4">Diamond Plan</p>
+            <p className="text-3xl lg:text-2xl sm:text-[32px] font-bold mb-4">Diamond Plan</p>
             <ul className="text-[#292830] mb-6 space-y-2 text-[18px]">
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Store unlimited data</li>
               <li><i className="fa-solid fa-check text-[#BDBDBD]"></i> Export to pdf, xls, csv</li>
